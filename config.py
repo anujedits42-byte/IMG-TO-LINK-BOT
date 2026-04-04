@@ -19,7 +19,7 @@ class Config:
     FORCE_SUB_CHANNEL = os.getenv("FORCE_SUB_CHANNEL", "-1003515041061") # username or ID
     
     # UI
-    START_PIC = os.getenv("START_PIC", "https://ibb.co/XZZhqDs0") # Default image
+    START_PIC = os.getenv("START_PIC", "https://image.zaw-myo.workers.dev/image/4ff61456-0c62-4b38-a92e-919e70bda978") # Default image
     
     # Log Channel
     LOG_CHANNEL = os.getenv("LOG_CHANNEL", "-1003515041061") # Channel ID (e.g. -100xxxx)
