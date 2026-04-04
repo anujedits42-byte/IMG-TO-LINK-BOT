@@ -63,7 +63,7 @@ async def start(client: Client, message: Message):
                  
                  invite_link = "https://t.me/log_channel_a" # Fallback to updates channel if specific fail
              else:
-                 invite_link = f"https://t.me/{Config.FORCE_SUB_CHANNEL.replace('@', '')}"
+                 invite_link = f"https://t.me/{Config.FORCE_SUB_CHANNEL.replace('@', 'log_channel_a')}"
         
         btn = [[InlineKeyboardButton("📢 Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ", url=invite_link)]]
         return await message.reply_text(
