@@ -16,11 +16,11 @@ class Config:
     ADMINS = [int(x) for x in ADMIN_STR.split()] if ADMIN_STR else []
     
     # Channel
-    FORCE_SUB_CHANNEL = os.getenv("FORCE_SUB_CHANNEL", "-1003515041061") # username or ID
+    FORCE_SUB_CHANNEL = os.getenv("FORCE_SUB_CHANNEL", "-1003475522251") # username or ID
     
     # UI
     START_PIC = os.getenv("START_PIC", "https://image.zaw-myo.workers.dev/image/4ff61456-0c62-4b38-a92e-919e70bda978") # Default image
     
     # Log Channel
-    LOG_CHANNEL = os.getenv("LOG_CHANNEL", "-1003515041061") # Channel ID (e.g. -100xxxx)
+    LOG_CHANNEL = os.getenv("LOG_CHANNEL", "-1003475522251") # Channel ID (e.g. -100xxxx)
 
